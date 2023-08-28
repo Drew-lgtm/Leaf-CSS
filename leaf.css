@@ -1,0 +1,255 @@
+/* Widget background color */
+
+body,
+.np-body-bg{
+background-color: #091f36;
+}
+
+/*
+Definition of:
+
+1. Header background color
+2. Date input background color
+3. Select box background color
+4. Datepicker background color
+*/
+#headers, /* 1. */
+.np-filed, /* 2. */
+.np-select:active,
+.selectWrapper, /* 3. */
+.selectOptions, /* 3. */
+.ui-datepicker, /* 4. */
+.np-select.active
+.np input {
+color: #d4af37;
+}
+
+
+/*
+Base text style
+
+Text color of
+1. Base paragraph text
+2. Link text color
+3. Alternative times text color (second step
+4. VOP text color
+5. Select box options text color
+*/
+
+.np-body p, /* 1. */
+.np-link, /* 2. */
+.np-options a, /* 5. */
+p a.np-link, /* 2. */
+.np-checkbox-wrap a, /* 4. */
+.np-options li:not(:first-child):before{
+color: #D4AF37;
+}
+
+
+/*
+Link hover style definition
+*/
+a.np-link:hover,
+.np-options a:hover,
+.np-checkbox-wrap a:hover{
+color: ##D4AF37;
+text-decoration: none;
+}
+
+
+/*
+Datepicker & Header text style
+
+Text color of:
+1. Header text color
+2. Select option text color
+3. Datepicker's dayOfweek labels text color
+4. Datepicker's next/prew arrows color
+5. Datepicker's active days text color
+*/
+#headers, /* 1. */
+.np-select, /* 2. */
+.selectOptions li, , , , , , , , /* 2. */
+.np filed,
+.ui-datepicker th, /* 3. */
+.ui-datepicker-prev span,.ui-datepicker-next span, /* 4. */
+.ui-datepicker tbody td a{ /* 5. */
+color: #D4AF37;
+}
+
+/**
+* Color of top selectbox arrow (first step)
+*/
+.np-select:after {
+border-color: #D4AF37 transparent transparent transparent;
+}
+
+/**
+* Color of bottom select box arrow (first step)
+*/
+.np-select:before{
+border-color:transparent transparent #D4AF37 transparent ;
+}
+
+
+/* Select box options separator */
+.selectOptions li{
+border-bottom:1px solid #D4AF37;
+}
+.selectOptions li:hover {
+color: #D4AF37;
+background: #091f36;
+}
+
+
+/**
+* Date picker style
+*/
+.ui-datepicker-header,
+.ui-datepicker-title{
+color: #D4AF37;
+}
+
+/*
+Datepicker's disabled days
+*/
+.ui-datepicker-unselectable span{
+color: #D4AF37 !important;
+}
+.ui-datepicker-calendar .ui-state-active {
+color: #D4AF37;
+}
+.ui-datepicker tbody td a{
+border-bottom: 2px solid #D4AF37 !important;
+}
+
+.ui-datepicker-today a{
+background-color: #D4AF37;
+}
+.ui-datepicker-today .ui-state-active{
+color: #fff;
+}
+
+
+/**
+* Widget button style
+*/
+.np-button{
+background-color: #091f36;
+border-color: #D4AF37;
+color: #D4AF37;
+}
+.np-button:hover{
+background-color: #091f36; /* background-color: darken(@buttonColor, 15%);*/
+border-color: #D4AF37;
+}
+
+/*
+Style definition of sub-header box (second/third/fourth step)
+*/
+.np-label-box{
+color: #fff;
+background-color: #D4AF37;
+}
+
+/*
+Small triangle situated bottom of sub-header
+Same color as: .np-label-box{ background-color: }.
+*/
+.np-label-box .np-triangle{
+border-color: #D4AF37 transparent transparent transparent;
+_border-color: #D4AF37 #000000 #000000 #000000;
+
+}
+
+/*
+* Style definition of alternative times. (second step of booking)
+*/
+.np-alternative li{
+border-color: #D4AF37;
+color: #D4AF37;
+}
+.np-alternative li:hover{
+background-color: #091f36;
+color: #fff;
+}
+
+.np-body form .np-input {
+    background-color: transparent;
+    border: 0;
+    padding: 0; /* Set padding to 0 */
+    width: 100%;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #D4AF37;
+}
+
+/*
+Inactive input fields in third step.
+*/
+.np-disabled,
+.np-disabled .np-input,
+.np-alternatives .np-disabled,
+.np-alternatives .np-disabled:hover{
+border-color: #D4AF37 !important;
+color: #D4AF37 !important;
+}
+
+
+/*
+Border color of input fields in third step of booking
+*/
+.np-input-wrap{
+border-bottom: 3px solid #D4AF37;
+}
+.np-body form .np-input{
+background-color: transparent;
+borders: 0;
+padding: 10px 0;
+width: 100%;
+font-size: 1.25em;
+font-weight: bold;
+color: #D4AF37;
+}
+
+
+
+/*
+Background color of circle situated in Google Map
+*/
+.np-gmap-ico{
+background-color: #D4AF37;
+}
+
+.np-text-before{
+border-top: #D4AF37;
+}
+
+.intl-tel-input.allow-dropdown input,
+.intl-tel-input.allow-dropdown input[type=text]{
+margin-left: 52px !important;
+}
+.intl-tel-input.allow-dropdown input[type=tel]{
+margin-left: 52px !important;
+}
+.intl-tel -input.separate-dial-code input{
+margin-left: 52px !important;
+}
+.intl-tel-input.separate-dial-code input[type=text]{
+margin-left: 52px !important;
+}
+.intl-tel-input.separate-dial-code input[type=tel] {
+margin-left: 52px !important;
+}
+
+#header h1 {
+	float: none;
+	text-align: center;
+	}
+
+@media (min-width:480px) {
+#header h1 {
+float: none;
+text-align: center;
+}
+}
