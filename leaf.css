@@ -247,9 +247,17 @@ margin-left: 52px !important;
 	text-align: center;
 	}
 
-@media (min-width:480px) {
+@media (min-width:375px) {
+
 #header h1 {
 float: none;
 text-align: center;
+}
+np-widget default-logo ng-scope {
+float: none;
+text-align: center;
+}
+#header {
+display: none;
 }
 }
