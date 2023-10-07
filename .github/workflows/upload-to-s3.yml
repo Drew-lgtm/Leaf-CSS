@@ -21,4 +21,4 @@ jobs:
           aws-region: eu-central-1
       - name: Upload file to S3
         run: |
-          aws s3 cp path/to/leaf.css s3://restaurant-leaf/leaf.css
+          aws s3 cp leaf.css s3://restaurant-leaf/leaf.css
