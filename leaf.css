@@ -107,14 +107,14 @@ background: #091f36;
 */
 .ui-datepicker-header,
 .ui-datepicker-title{
-color: #D4AF37;
+color: #091F36;
 }
 
 /*
 Datepicker's disabled days
 */
 .ui-datepicker-unselectable span{
-color: #D4AF37 !important;
+color: #DCDCDC !important;
 }
 .ui-datepicker-calendar .ui-state-active {
 color: #D4AF37;
